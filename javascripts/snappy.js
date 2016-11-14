@@ -38,7 +38,7 @@ function init() {
 
 	// load JSON
 	var jsonLoader = new THREE.JSONLoader();
-	jsonLoader.load('models/snappy.json', function( geometry, materials ) {
+	jsonLoader.load('models/snappy.js', function( geometry, materials ) {
 		var material = new THREE.MeshPhongMaterial( { 
 			color: 0xcb43df, 
 			specular: 0xffffff, 
